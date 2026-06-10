@@ -151,7 +151,7 @@ function App() {
               <p className="eyebrow">National Engineering & Infrastructure Corps</p>
               <h2>Faster reviews, not weaker reviews.</h2>
               <p className="corps-tagline">
-                This is not deregulation. It is capacity‑building.
+                This is not deregulation. It is capacity-building.
               </p>
               <p>
                 The United States does not only have a permitting problem. It has a technical
