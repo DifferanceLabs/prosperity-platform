@@ -16,6 +16,10 @@
   --gold: #c99b3b;
   --gold-soft: #f2dfb3;
   --clay: #a86742;
+  --soft-heading: #b6afa8;
+  --soft-strong: #aaa199;
+  --soft-body: #948a80;
+  --soft-accent: #6fb895;
   --paper: #fffdf8;
   --paper-warm: #f8f4eb;
   --line: rgba(26, 48, 57, 0.13);
@@ -144,7 +148,7 @@ img {
 
 .eyebrow {
   margin: 0 0 0.85rem;
-  color: var(--sage-dark);
+  color: var(--soft-accent);
   font-size: 0.76rem;
   font-weight: 820;
   letter-spacing: 0;
@@ -167,8 +171,16 @@ h1,
 h2,
 h3 {
   margin: 0;
-  color: var(--ink);
   letter-spacing: 0;
+}
+
+h1,
+h2 {
+  color: var(--soft-heading);
+}
+
+h3 {
+  color: var(--ink);
 }
 
 h1 {
@@ -192,7 +204,7 @@ h3 {
 
 .hero-subtitle {
   margin: 1.4rem 0 0;
-  color: var(--navy);
+  color: var(--soft-strong);
   font-size: 1.55rem;
   font-weight: 760;
   line-height: 1.22;
@@ -201,7 +213,7 @@ h3 {
 .hero-intro {
   max-width: 650px;
   margin: 1.2rem 0 0;
-  color: var(--muted-ink);
+  color: var(--soft-body);
   font-size: 1.06rem;
   line-height: 1.68;
 }
@@ -301,7 +313,7 @@ h3 {
 .corps-card p,
 .platform-card p {
   max-width: 780px;
-  color: var(--muted-ink);
+  color: var(--soft-body);
   font-size: 1.02rem;
   line-height: 1.68;
 }
