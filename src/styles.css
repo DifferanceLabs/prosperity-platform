@@ -937,8 +937,25 @@ h3 {
     margin-top: 0.5rem;
   }
 
+  .topbar::after {
+    position: absolute;
+    right: 0.7rem;
+    bottom: 0.7rem;
+    width: 2.75rem;
+    height: 2.4rem;
+    border-right: 2px solid rgba(201, 155, 59, 0.58);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    background: linear-gradient(90deg, rgba(255, 253, 248, 0), rgba(255, 253, 248, 0.94) 72%);
+    content: "";
+    pointer-events: none;
+  }
+
   .brand {
     font-size: 0.96rem;
+  }
+
+  .nav-links {
+    padding-right: 2.65rem;
   }
 
   .nav-links a {
